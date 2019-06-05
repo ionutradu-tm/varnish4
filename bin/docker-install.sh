@@ -87,7 +87,7 @@ chown -R varnish /etc/varnish /usr/local/var/varnish /etc/chaperone.d
 curl -o /tmp/varnish.tgz -SL https://download.varnish-software.com/varnish-modules/varnish-modules-0.15.0.tar.gz
 tar -zxvf /tmp/varnish.tgz -C /tmp/
 rm -rf /tmp/varnish.tgz
-cd /tmp/varnish-modules-0.12.1
+cd /tmp/varnish-modules-0.15.0
 ./configure
 make
 make install

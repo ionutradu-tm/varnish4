@@ -5,7 +5,7 @@ COPY bin/docker-install.sh /tmp/docker-install.sh
 RUN /tmp/docker-install.sh \
  && rm -rvf /tmp/*
 
-COPY bin/*.py src/track* bin/*.sh  /
+COPY bin/*.py bin/track* bin/*.sh  /
 COPY bin/reload                    /usr/bin/reload
 COPY bin/default.vcl               /etc/varnish/default.vcl
 

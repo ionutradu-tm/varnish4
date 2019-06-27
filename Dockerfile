@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 MAINTAINER "Ionut Radu" <iradu@iradu.ro>
 
 COPY bin/docker-install.sh /tmp/docker-install.sh

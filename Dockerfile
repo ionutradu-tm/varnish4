@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM ubuntu:18.04
 MAINTAINER "Ionut Radu" <iradu@iradu.ro>
 
 COPY bin/docker-install.sh /tmp/docker-install.sh

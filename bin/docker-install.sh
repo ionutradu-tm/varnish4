@@ -27,7 +27,6 @@ buildDeps="
     libmicrohttpd-dev
     libcurl4-gnutls-dev
     git
-    jq
 "
 
 runDeps="
@@ -46,6 +45,7 @@ runDeps="
     libcurl4-gnutls-dev
     rsyslog
     cron
+    jq
 "
 
 echo "========================================================================="

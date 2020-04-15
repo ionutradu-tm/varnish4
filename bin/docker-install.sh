@@ -27,6 +27,7 @@ buildDeps="
     libmicrohttpd-dev
     libcurl4-gnutls-dev
     git
+    autoconf-archive
 "
 
 runDeps="

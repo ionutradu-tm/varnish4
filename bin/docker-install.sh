@@ -105,7 +105,7 @@ make install
 ldconfig
 
 curl -o /tmp/oob_probe.tar.gz -SL https://code.uplex.de/uplex-varnish/oob_probe/-/archive/master/oob_probe-master.tar.gz
-tar -zxvf /tmp/oon_probe.tar.gz -C /tmp/
+tar -zxvf /tmp/oob_probe.tar.gz -C /tmp/
 rm -rf /tmp/oob_probe.tar.gz
 cd /tmp/oob_probe-master
 ./autogen.sh

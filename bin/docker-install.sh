@@ -113,7 +113,6 @@ cd /tmp/libvmod-oob_probe-master
 ./autogen.sh
 ./configure
 make
-make check
 make install
 ldconfig
 

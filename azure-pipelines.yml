@@ -34,4 +34,3 @@ stages:
         repository: iradu/varnish4
         tags: |
           azure
-          $(BUILD_SOURCEVERSION)
